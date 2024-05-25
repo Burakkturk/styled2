@@ -18,8 +18,9 @@ const App = () => {
     <>
     <ThemeProvider theme={styles}>
     <GlobalStyles/>
+    <Nav/>
     <Container>
-      <Nav/>
+      
     <Header/>
     </Container>
     </ThemeProvider>
